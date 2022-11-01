@@ -1,38 +1,51 @@
-.App {
+html,body {
+  font-family: cursive;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 55px;
   text-align: center;
+  color: #ffcc66;
+  text-shadow: 1px 1px 0 red;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-minion .minion {
+  width: 300px;
+  vertical-align: top;
+  margin-top: -60px;
+  animation-name: minion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@keyframes minion {
+  0%{
+      transform: scale(0.5);
+  }
+  100% {
+      transform: scale(0.7);
+      opacity: 0.2;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.click-img {
+  height: 60px;
+}
+
+.wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 150px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-click {
+  display: flex;
 }
