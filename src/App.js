@@ -1,20 +1,12 @@
 import './App.css';
 import React from 'react';
-import Page from './Components/Page/Page'
-import Page2 from './Components/Page2/Page2';
-
-
+import Navigation from './Navigation/Navigation';
 
 const App = () => {
   return (
-  <div>
-    <Page />
-    <Page2 />
-  </div>
-  );
+    <Navigation />
+)
 }
-
-
 export default App;
 
 
