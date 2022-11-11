@@ -15,9 +15,9 @@ html,body {
   }
   
   .container-minion .minion {
-    width: 300px;
+    width: 350px;
     vertical-align: top;
-    margin-top: -60px;
+    margin-top: -55px;
     animation-name: minion;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -43,9 +43,11 @@ html,body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 150px;
+    margin-right: 115px;
+    margin-top: 200px;
   }
   
   .container-click {
     display: flex;
   }
+

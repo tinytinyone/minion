@@ -1,1 +1,17 @@
 
+h2 {
+  font-size: 47px;
+    text-align: center;
+    color: #ffcc66;
+    text-shadow: 1px 1px 0 red;
+    margin: 0px;
+}
+
+.minion-hello {
+  height: 300px;
+  margin: auto;
+}
+
+.wrapper-page {
+  margin-top: 200px;
+}
